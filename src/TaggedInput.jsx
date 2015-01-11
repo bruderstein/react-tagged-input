@@ -71,6 +71,7 @@ var TaggedInput = React.createClass({
     for (i = 0 ; i < s.tags.length; i++) {
       tagComponents.push(
         <TagComponent
+          key={'tag' + i}
           item={s.tags[i]}
           itemIndex={i}
           onRemove={self._handleRemoveTag.bind(this, i)}
