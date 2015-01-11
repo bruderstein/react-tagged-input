@@ -20,8 +20,8 @@
   "browserify": {
     "transform": ["reactify"]
   },
-  "dependencies": {
-    "react": "^0.12.1"
+  "peerDependencies": {
+    "react": ">=0.12.1 <0.13"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
